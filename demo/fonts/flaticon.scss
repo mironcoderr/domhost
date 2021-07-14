@@ -1,0 +1,125 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?64d88e08337334597d7c2f22a93a5941") format("truetype"),
+url("./flaticon.woff?64d88e08337334597d7c2f22a93a5941") format("woff"),
+url("./flaticon.woff2?64d88e08337334597d7c2f22a93a5941") format("woff2"),
+url("./flaticon.eot?64d88e08337334597d7c2f22a93a5941#iefix") format("embedded-opentype"),
+url("./flaticon.svg?64d88e08337334597d7c2f22a93a5941#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "action": "\f101",
+    "backend": "\f102",
+    "card-game": "\f103",
+    "category": "\f104",
+    "check-list": "\f105",
+    "credit-card": "\f106",
+    "danger": "\f107",
+    "drop-down-list": "\f108",
+    "email": "\f109",
+    "fast-forward": "\f10a",
+    "filter": "\f10b",
+    "footer": "\f10c",
+    "header": "\f10d",
+    "id-card": "\f10e",
+    "menu": "\f10f",
+    "message": "\f110",
+    "searching-bar": "\f111",
+    "sidebar-1": "\f112",
+    "sidebar": "\f113",
+    "slider": "\f114",
+    "social-media": "\f115",
+    "table": "\f116",
+    "tabs": "\f117",
+    "vote": "\f118",
+    "website": "\f119",
+);
+
+.flaticon-action:before {
+    content: map-get($flaticon-map, "action");
+}
+.flaticon-backend:before {
+    content: map-get($flaticon-map, "backend");
+}
+.flaticon-card-game:before {
+    content: map-get($flaticon-map, "card-game");
+}
+.flaticon-category:before {
+    content: map-get($flaticon-map, "category");
+}
+.flaticon-check-list:before {
+    content: map-get($flaticon-map, "check-list");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-danger:before {
+    content: map-get($flaticon-map, "danger");
+}
+.flaticon-drop-down-list:before {
+    content: map-get($flaticon-map, "drop-down-list");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-fast-forward:before {
+    content: map-get($flaticon-map, "fast-forward");
+}
+.flaticon-filter:before {
+    content: map-get($flaticon-map, "filter");
+}
+.flaticon-footer:before {
+    content: map-get($flaticon-map, "footer");
+}
+.flaticon-header:before {
+    content: map-get($flaticon-map, "header");
+}
+.flaticon-id-card:before {
+    content: map-get($flaticon-map, "id-card");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-message:before {
+    content: map-get($flaticon-map, "message");
+}
+.flaticon-searching-bar:before {
+    content: map-get($flaticon-map, "searching-bar");
+}
+.flaticon-sidebar-1:before {
+    content: map-get($flaticon-map, "sidebar-1");
+}
+.flaticon-sidebar:before {
+    content: map-get($flaticon-map, "sidebar");
+}
+.flaticon-slider:before {
+    content: map-get($flaticon-map, "slider");
+}
+.flaticon-social-media:before {
+    content: map-get($flaticon-map, "social-media");
+}
+.flaticon-table:before {
+    content: map-get($flaticon-map, "table");
+}
+.flaticon-tabs:before {
+    content: map-get($flaticon-map, "tabs");
+}
+.flaticon-vote:before {
+    content: map-get($flaticon-map, "vote");
+}
+.flaticon-website:before {
+    content: map-get($flaticon-map, "website");
+}
